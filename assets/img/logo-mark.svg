@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-label="PARIS Lab logo">
+  <title>PARIS Lab</title>
+  <!-- A Paris skyline made of robots: arm, humanoid, Eiffel tower, robot dog, autonomous car -->
+
+  <!-- ground -->
+  <path d="M4 106 H236" stroke="#1B2233" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- robot arm -->
+  <g>
+    <rect x="9" y="98" width="30" height="8" rx="2" fill="#1B2233"/>
+    <rect x="17" y="88" width="14" height="11" rx="2" fill="#1B2233"/>
+    <path d="M24 88 L14 58 L42 40" fill="none" stroke="#1B2233" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 40 L46 50" fill="none" stroke="#1B2233" stroke-width="6" stroke-linecap="round"/>
+    <path d="M42.5 52 L40 60 M49.5 50 L51 58.5" stroke="#1B2233" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M40.5 52.5 L50.5 49" stroke="#1B2233" stroke-width="3.6" stroke-linecap="round"/>
+    <g fill="#CC0000"><circle cx="24" cy="88" r="4.6"/><circle cx="14" cy="58" r="4.6"/><circle cx="42" cy="40" r="4"/></g>
+  </g>
+
+  <!-- humanoid -->
+  <g fill="#1B2233">
+    <rect x="64" y="40" width="15" height="14" rx="5"/>
+    <rect x="66.5" y="44.5" width="10" height="4" rx="2" fill="#CC0000"/>
+    <rect x="69.5" y="54" width="4" height="3"/>
+    <path d="M62 58 Q62 56.5 64 56.5 L79 56.5 Q81 56.5 81 58 L80 80 L63 80 Z"/>
+    <path d="M60 59 L55.5 79" stroke="#1B2233" stroke-width="5" stroke-linecap="round"/>
+    <path d="M83 59 L87.5 79" stroke="#1B2233" stroke-width="5" stroke-linecap="round"/>
+    <path d="M66.5 82 L65.5 104 M76.5 82 L77.5 104" stroke="#1B2233" stroke-width="6" stroke-linecap="round"/>
+    <rect x="62" y="102" width="8" height="4" rx="1.5"/><rect x="73" y="102" width="8" height="4" rx="1.5"/>
+    <circle cx="71.5" cy="68" r="3" fill="#CC0000"/>
+  </g>
+
+  <!-- Eiffel tower -->
+  <g fill="#CC0000">
+    <rect x="119" y="2" width="2" height="9" rx="1"/>
+    <path d="M117.2 26 L119 11 L121 11 L122.8 26 Z"/>
+    <rect x="115" y="25" width="10" height="3" rx="1"/>
+    <path fill-rule="evenodd" d="M113.2 56 L116.2 28 L123.8 28 L126.8 56 Z M118.4 52 L119.4 36 L120.6 36 L121.6 52 Z"/>
+    <rect x="109" y="55" width="22" height="4" rx="1.2"/>
+    <path d="M94 106 C102 98 108 82 110.5 59 L129.5 59 C132 82 138 98 146 106 L136.5 106 C133.5 95 127.5 89 120 89 C112.5 89 106.5 95 103.5 106 Z"/>
+    <rect x="104" y="72" width="32" height="3.6" rx="1.2"/>
+  </g>
+  <g fill="none" stroke="#1B2233" stroke-width="2.4" stroke-linecap="round">
+    <path d="M113 1.5 A9 9 0 0 0 113 12.5"/><path d="M127 1.5 A9 9 0 0 1 127 12.5"/>
+  </g>
+
+  <!-- robot dog (quadruped) -->
+  <g fill="#1B2233">
+    <rect x="152" y="74" width="34" height="12" rx="5"/>
+    <path d="M184 76 L188 66 Q189 64 191 64 L198 64 Q200 64 200 66 L200 71 Q200 73 198 73 L191 73 L188 80 Z"/>
+    <rect x="193" y="66.5" width="5" height="3" rx="1.5" fill="#CC0000"/>
+    <rect x="162" y="70.5" width="9" height="4" rx="1.5"/>
+  </g>
+  <g fill="none" stroke="#1B2233" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M158 85 L152 95 L157 104"/>
+    <path d="M165 85 L160 95 L165 104"/>
+    <path d="M176 85 L170 95 L175 104"/>
+    <path d="M183 85 L177 95 L182 104"/>
+  </g>
+  <g fill="#CC0000"><circle cx="152" cy="95" r="2.4"/><circle cx="170" cy="95" r="2.4"/></g>
+
+  <!-- autonomous car with roof lidar -->
+  <g>
+    <path d="M200 103 L200 95 Q200 91 204 90.5 L210 89.6 L216.5 83 Q218 81.6 220.5 81.6 L228.5 81.6 Q231 81.6 232.4 83.6 L236.6 89.6 Q238.5 90.5 238.5 93 L238.5 103 Z" fill="#1B2233"/>
+    <path d="M213 89.4 L218 84.6 Q218.8 84 220 84 L224 84 L224 89.4 Z M226.4 89.4 L226.4 84 L228.4 84 Q229.6 84 230.2 84.8 L233.4 89.4 Z" fill="#fff"/>
+    <rect x="221.5" y="77.6" width="6" height="4" rx="1.4" fill="#CC0000"/>
+    <path d="M216.5 75 A9 9 0 0 1 232.5 75" fill="none" stroke="#1B2233" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M212.5 71.5 A14 14 0 0 1 236.5 71.5" fill="none" stroke="#1B2233" stroke-width="2.2" stroke-linecap="round" opacity=".4"/>
+    <circle cx="209" cy="103" r="5.2" fill="#1B2233"/><circle cx="231" cy="103" r="5.2" fill="#1B2233"/>
+    <circle cx="209" cy="103" r="2" fill="#fff"/><circle cx="231" cy="103" r="2" fill="#fff"/>
+    <rect x="235.4" y="93" width="3.2" height="2.6" rx="1" fill="#FF5A5A"/>
+  </g>
+</svg>

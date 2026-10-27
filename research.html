@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research · PARIS Lab</title>
+  <meta name="description" content="Research at the PARIS Lab, NC State: embodied and physical AI, robotic navigation and manipulation, and efficient and adaptive learning, with videos of TIC-VLA, Mem4Act, AutoVLA, and nuReasoning.">
+  <meta name="theme-color" content="#cc0000">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-page="research">
+<script src="assets/js/layout.js"></script>
+
+<main>
+  <section class="page-hero">
+    <svg class="skyline" aria-hidden="true"><use href="#logo"/></svg>
+    <div class="wrap">
+      <span class="eyebrow">Research</span>
+      <h1>Intelligence that leaves the screen</h1>
+      <p>Our research sits at the intersection of robotics, machine learning, and embodied AI, with a focus on foundation models, efficient learning, and human-centered intelligence.</p>
+    </div>
+  </section>
+
+  <!-- ================= DIRECTIONS ================= -->
+  <section class="block" id="directions">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Research Directions</span>
+        <h2>Three directions, one goal</h2>
+        <p>We aim to build physical intelligent agents that can perceive, reason, and act in the real world.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card direction reveal" id="embodied-ai">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a4 4 0 0 0-4 4v1a3 3 0 0 0-2 5 3 3 0 0 0 2 5 4 4 0 0 0 4 3 4 4 0 0 0 4-3 3 3 0 0 0 2-5 3 3 0 0 0-2-5V7a4 4 0 0 0-4-4z"/><path d="M12 3v18M8 8h1.5M14.5 8H16M7.5 13H10M14 13h2.5M9 18h1M14 18h1"/></svg></div>
+          <h3>Embodied &amp; Physical AI</h3>
+          <p>We develop efficient foundation models that unify perception, reasoning, understanding, and action for embodied agents. This includes vision-language-action (VLA) models, world models, and generative AI methods that let agents understand complex scenes, reason about long-horizon goals, and act reliably under real-world limits on compute, latency, and data.</p>
+          <div class="tags"><span class="tag">VLA models</span><span class="tag">World models</span><span class="tag">Generative AI</span><span class="tag">Reasoning</span></div>
+        </article>
+        <article class="card direction reveal" id="navigation-manipulation">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="18" r="2"/><path d="M6 16V11l6-5 4 3"/><circle cx="6" cy="11" r="1.4"/><circle cx="12" cy="6" r="1.4"/><path d="M16 9l2-1M16 9l1 2"/><path d="M3 21h6"/><path d="M14 18h7M17.5 15v6"/></svg></div>
+          <h3>Robotic Navigation &amp; Manipulation</h3>
+          <p>We build foundation-model-based systems that let mobile robots and manipulators operate in unstructured environments. Our work spans visual navigation, dexterous manipulation, multi-modal scene understanding, and decision-making and control, turning strong semantic and geometric representations into robust closed-loop robot behavior.</p>
+          <div class="tags"><span class="tag">Navigation</span><span class="tag">Manipulation</span><span class="tag">Autonomous driving</span><span class="tag">Control</span></div>
+        </article>
+        <article class="card direction reveal" id="adaptive-learning">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/><circle cx="12" cy="10" r="2.2"/><path d="M8.5 16.5a4 4 0 0 1 7 0"/></svg></div>
+          <h3>Efficient &amp; Adaptive Learning</h3>
+          <p>We study how robots can adapt quickly, interact, and learn from humans with limited supervision. This includes data-efficient fine-tuning, reinforcement learning, imitation learning, and human-in-the-loop adaptation, so robots can personalize their behavior, improve through interaction, and generalize to new tasks, users, and environments.</p>
+          <div class="tags"><span class="tag">RL fine-tuning</span><span class="tag">Imitation learning</span><span class="tag">Human-in-the-loop</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="block alt" id="projects">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Featured Projects</span>
+        <h2>Robots in action</h2>
+        <p>Recent work by Prof. Huang and collaborators, the foundation the PARIS Lab builds on. All clips are real rollouts of our models, in the real world and in simulation.</p>
+      </div>
+
+      <!-- Mem4Act -->
+      <article class="card project reveal" id="mem4act">
+        <div class="media-main">
+          <video src="assets/videos/mem4act-promo.mp4" poster="assets/img/posters/mem4act-promo-cover.jpg" controls preload="none" playsinline></video>
+        </div>
+        <div class="project-body">
+          <div class="project-top"><h3>Mem4Act</h3><span class="venue">arXiv 2026</span></div>
+          <p class="subtitle">Learning Effective Latent Memory for Long-Horizon Robotic Manipulation</p>
+          <p class="desc">Most VLA policies act from the current frame alone, but long-horizon manipulation depends on what the robot saw earlier. Mem4Act distills past observations into a compact, fixed-size latent memory trained explicitly for control, reaching state-of-the-art success on memory-dependent tasks in simulation (RoboMME, RMBench) and on a real dual-arm robot.</p>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2610.22323">Paper</a>
+            <a href="https://handsomeyun.github.io/Mem4Act/">Project</a>
+            <a href="https://github.com/HandsomeYun/Mem4Act">Code</a>
+          </div>
+        </div>
+        <div data-tabs>
+          <div class="tabs" role="tablist" aria-label="Mem4Act real-world tasks">
+            <button class="tab" role="tab" aria-selected="true" data-src="assets/videos/mem4act-real-cup.mp4" data-poster="assets/img/posters/mem4act-real-cup.jpg" data-instr="Cover the red, green, and blue blocks with cups from left to right, then uncover them in the order red, green, blue.">Cover Blocks</button>
+            <button class="tab" role="tab" aria-selected="false" data-src="assets/videos/mem4act-real-2mat.mp4" data-poster="assets/img/posters/mem4act-real-2mat.jpg" data-instr="Move the block between the two mats onto the empty mat, press the button, then move the other block to the space between the mats.">Rearrange Blocks</button>
+            <button class="tab" role="tab" aria-selected="false" data-src="assets/videos/mem4act-real-3bowl.mp4" data-poster="assets/img/posters/mem4act-real-3bowl.jpg" data-instr="Swap two blocks across three bowls, moving one block at a time with at most one block per bowl, then press the button.">Swap Blocks</button>
+            <button class="tab" role="tab" aria-selected="false" data-src="assets/videos/mem4act-real-4mat.mp4" data-poster="assets/img/posters/mem4act-real-4mat.jpg" data-instr="Put the block in the center, press the button, then put the block back on the mat where it started.">Put Block Back</button>
+          </div>
+          <div class="tab-panel" role="tabpanel">
+            <video src="assets/videos/mem4act-real-cup.mp4" poster="assets/img/posters/mem4act-real-cup.jpg" data-autoplay muted loop playsinline preload="none"></video>
+            <p class="instr"><b>Instruction:</b> Cover the red, green, and blue blocks with cups from left to right, then uncover them in the order red, green, blue.</p>
+          </div>
+          <div style="height:28px"></div>
+        </div>
+      </article>
+
+      <!-- TIC-VLA -->
+      <article class="card project reveal" id="tic-vla">
+        <div class="media-grid cols-3">
+          <figure class="clip square"><video src="assets/videos/ticvla-hallway-obstacle.mp4" poster="assets/img/posters/ticvla-hallway-obstacle.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>Hallway</figcaption></figure>
+          <figure class="clip square"><video src="assets/videos/ticvla-vending.mp4" poster="assets/img/posters/ticvla-vending.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>Outdoor plaza</figcaption></figure>
+          <figure class="clip square"><video src="assets/videos/ticvla-office-openroom.mp4" poster="assets/img/posters/ticvla-office-openroom.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>Office</figcaption></figure>
+          <figure class="clip square"><video src="assets/videos/ticvla-ramp.mp4" poster="assets/img/posters/ticvla-ramp.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>Ramp</figcaption></figure>
+          <figure class="clip square"><video src="assets/videos/ticvla-office-sofa.mp4" poster="assets/img/posters/ticvla-office-sofa.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>Corridor</figcaption></figure>
+          <figure class="clip square"><video src="assets/videos/ticvla-walkway.mp4" poster="assets/img/posters/ticvla-walkway.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>Walkway</figcaption></figure>
+        </div>
+        <div class="project-body">
+          <div class="project-top"><h3>TIC-VLA</h3><span class="venue">ICML 2026</span></div>
+          <p class="subtitle">A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments</p>
+          <p class="desc">Large VLA models think slowly, but robots must act now. TIC-VLA is a latency-aware framework that explicitly models delayed semantic reasoning during action generation, so a quadruped can follow language instructions through dynamic, crowded indoor and outdoor spaces in real time.</p>
+          <div class="links">
+            <a href="https://arxiv.org/abs/2602.02459">Paper</a>
+            <a href="https://ucla-mobility.github.io/TIC-VLA/">Project</a>
+            <a href="https://github.com/ucla-mobility/TIC-VLA">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="split-2">
+        <!-- AutoVLA -->
+        <article class="card project reveal" id="autovla">
+          <figure class="clip wide" style="margin:0"><video src="assets/videos/autovla-carla-cutin.mp4" poster="assets/img/posters/autovla-carla-cutin.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>CARLA &middot; cut-in in fog</figcaption></figure>
+          <div class="project-body">
+            <div class="project-top"><h3>AutoVLA</h3><span class="venue">NeurIPS 2025</span></div>
+            <p class="subtitle">A Vision-Language-Action Model for End-to-End Autonomous Driving</p>
+            <p class="desc">Unifies reasoning and action generation in a single autoregressive model, with adaptive reasoning and reinforcement fine-tuning.</p>
+            <div class="links">
+              <a href="https://arxiv.org/abs/2506.13757">Paper</a>
+              <a href="https://autovla.github.io/">Project</a>
+              <a href="https://github.com/ucla-mobility/AutoVLA">Code</a>
+            </div>
+          </div>
+        </article>
+        <!-- nuReasoning -->
+        <article class="card project reveal" id="nureasoning">
+          <figure class="clip wide" style="margin:0"><video src="assets/videos/nureasoning-lane-change.mp4" poster="assets/img/posters/nureasoning-lane-change.jpg" data-autoplay muted loop playsinline preload="none"></video><figcaption>Driving + counterfactual reasoning</figcaption></figure>
+          <div class="project-body">
+            <div class="project-top"><h3>nuReasoning</h3><span class="venue">NeurIPS 2026</span></div>
+            <p class="subtitle">A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving</p>
+            <p class="desc">20K real-world long-tail driving clips with rich spatial, decision, and counterfactual reasoning annotations.</p>
+            <div class="links">
+              <a href="https://arxiv.org/abs/2605.31572">Paper</a>
+              <a href="https://nureasoning.github.io/">Project</a>
+              <a href="https://huggingface.co/datasets/nureasoning/nuReasoning">Dataset</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="center-row">
+        <a class="btn btn-outline" href="publications.html">All publications &rarr;</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

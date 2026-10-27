@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facilities · PARIS Lab</title>
+  <meta name="description" content="Robots and equipment at the PARIS Lab, NC State, including the i2RT ABC Box dual-arm manipulation system.">
+  <meta name="theme-color" content="#cc0000">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body data-page="facilities">
+<script src="assets/js/layout.js"></script>
+
+<main>
+  <section class="page-hero">
+    <svg class="skyline" aria-hidden="true"><use href="#logo"/></svg>
+    <div class="wrap">
+      <span class="eyebrow">Facilities</span>
+      <h1>Lab equipment</h1>
+      <p>Our robots let us take learned policies from simulation to the real world.</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Our Robots</span>
+        <h2>Robot platforms</h2>
+        <p>Our main testbed for real-world bimanual manipulation.</p>
+      </div>
+
+      <article class="card facility reveal">
+        <div class="facility-media" data-gallery>
+          <div class="gallery-main"><img src="assets/img/facilities/abc-box-1.jpg" alt="i2RT ABC Box: two robot arms mounted on a base with a tall overhead camera mast"></div>
+          <div class="thumbs">
+            <button type="button" aria-pressed="true" data-full="assets/img/facilities/abc-box-1.jpg"><img src="assets/img/facilities/abc-box-1.jpg" alt="i2RT ABC Box: two robot arms mounted on a base with a tall overhead camera mast"></button>
+            <button type="button" aria-pressed="false" data-full="assets/img/facilities/abc-box-2.jpg"><img src="assets/img/facilities/abc-box-2.jpg" alt="i2RT ABC Box seen from the front, showing the integrated touch screen and e-stop" loading="lazy"></button>
+            <button type="button" aria-pressed="false" data-full="assets/img/facilities/abc-box-3.jpg"><img src="assets/img/facilities/abc-box-3.jpg" alt="i2RT ABC Box front view with both arms folded" loading="lazy"></button>
+            <button type="button" aria-pressed="false" data-full="assets/img/facilities/abc-box-4.jpg"><img src="assets/img/facilities/abc-box-4.jpg" alt="i2RT ABC Box with arms extended and grippers open" loading="lazy"></button>
+          </div>
+          <div class="credit">Product images: <a href="https://i2rt.com/products/abc-box">I2RT Robotics</a></div>
+        </div>
+        <div class="facility-body">
+          <h3>Dual-Arm Manipulation Station</h3>
+          <p class="maker"><a href="https://i2rt.com/products/abc-box">i2RT ABC Box</a> &middot; bimanual manipulator</p>
+          <h4 style="font-size:1rem;margin:22px 0 12px">How we use it</h4>
+          <ul class="specs">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11V7a5 5 0 0 1 10 0v4"/><rect x="4" y="11" width="16" height="10" rx="2"/></svg><span><b>Collecting demonstrations</b> through teleoperation for imitation learning</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20V12l5-5 4 3 4-4"/><circle cx="5" cy="12" r="1.5"/><circle cx="10" cy="7" r="1.5"/><circle cx="14" cy="10" r="1.5"/></svg><span><b>Deploying VLA and memory-based policies</b> like <a href="research.html#mem4act">Mem4Act</a> on long-horizon bimanual tasks</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-6-6M12 19h8"/></svg><span><b>Testing sim-to-real transfer</b> of policies trained in simulation</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <div class="card coming reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span>More platforms will be added here as the lab grows. Check back soon.</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
